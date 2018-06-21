@@ -28,12 +28,12 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 6. Update firewall to allow access going through port 9191.
 7. Browse http://&lt;host ip&gt;:9191/ to see if the Jenkins server is online.
 8. Please note this version of Jenkins container won't go to the installation process, it goes to an authentication page instead. Type 'foobar' as password to login. BTW, you can change the password in jenkins-container.yml before running ansible playbook.
-9. You may run your dockerfiles to run a docker client by Jenkins pipeline to see the docker status by using the following command. <br>
+9. You may run your dockerfile as docker client by Jenkins pipeline to see the docker status by using the following command. <br>
     $ docker stats
 <pre>
-CONTAINER           CPU %               MEM USAGE / LIMIT       MEM %               NET I/O             BLOCK I/O           PIDS
-6f7984be9ff2        26.92%              364.4 MiB / 2.288 GiB   15.55%              4.17 MB / 1.85 MB   121 MB / 17 MB      86
-cd31533e0007        0.00%               340 KiB / 2.288 GiB     0.01%               180 B / 90 B        1.01 MB / 0 B       4
+CONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS
+2b3e3603e067        0.67%               331 MiB / 2.288 GiB   14.13%              4.32 MB / 824 kB    94.8 MB / 8.94 MB   91
+09fa6eced026        0.21%               528 KiB / 2.288 GiB   0.02%               508 B / 508 B       0 B / 0 B           6
 </pre>
 
 ## Troubleshooting
