@@ -32,9 +32,12 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
     $ docker stats
 <pre>
 CONTAINER           CPU %               MEM USAGE / LIMIT       MEM %               NET I/O             BLOCK I/O           PIDS
-2b3e3603e067        4.31%               347.2 MiB / 2.288 GiB   14.82%              5.39 MB / 2.15 MB   96.2 MB / 35.9 MB   106
-890fd0e2df37        6.15%               592 KiB / 2.288 GiB     0.02%               1.23 kB / 648 B     0 B / 0 B           7
-ec75fc35cec5        3.38%               532 KiB / 2.288 GiB     0.02%               578 B / 508 B       0 B / 0 B           6
+2b3e3603e067        0.54%               369.3 MiB / 2.288 GiB   15.76%              6.26 MB / 3.15 MB   97.2 MB / 86.5 MB   130
+d9c471e9ff8e        3.13%               516 KiB / 2.288 GiB     0.02%               2.82 kB / 648 B     0 B / 0 B           6
+8958a3b1d0dc        0.00%               524 KiB / 2.288 GiB     0.02%               2.56 kB / 578 B     0 B / 0 B           6
+a64079f26469        0.20%               532 KiB / 2.288 GiB     0.02%               2.05 kB / 578 B     0 B / 0 B           6
+61a520059e50        3.17%               528 KiB / 2.288 GiB     0.02%               1.46 kB / 508 B     0 B / 0 B           6
+cf27a7c31488        0.00%               532 KiB / 2.288 GiB     0.02%               1.04 kB / 508 B     0 B / 0 B           6
 </pre>
 
 ## Troubleshooting
