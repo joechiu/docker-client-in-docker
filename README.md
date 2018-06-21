@@ -31,13 +31,10 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 9. You may run your dockerfile as docker client by Jenkins pipeline to see the docker status by using the following command. <br>
     $ docker stats
 <pre>
-CONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS
-2b3e3603e067        0.67%               331 MiB / 2.288 GiB   14.13%              4.32 MB / 824 kB    94.8 MB / 8.94 MB   91
-09fa6eced026        0.21%               528 KiB / 2.288 GiB   0.02%               508 B / 508 B       0 B / 0 B           6
-
 CONTAINER           CPU %               MEM USAGE / LIMIT       MEM %               NET I/O             BLOCK I/O           PIDS
-2b3e3603e067        3.30%               347.7 MiB / 2.288 GiB   14.84%              4.75 MB / 1.39 MB   95.2 MB / 22.1 MB   95
-5dce8139a115        3.53%               520 KiB / 2.288 GiB     0.02%               648 B / 648 B       0 B / 0 B           6
+2b3e3603e067        4.31%               347.2 MiB / 2.288 GiB   14.82%              5.39 MB / 2.15 MB   96.2 MB / 35.9 MB   106
+890fd0e2df37        6.15%               592 KiB / 2.288 GiB     0.02%               1.23 kB / 648 B     0 B / 0 B           7
+ec75fc35cec5        3.38%               532 KiB / 2.288 GiB     0.02%               578 B / 508 B       0 B / 0 B           6
 </pre>
 
 ## Troubleshooting
