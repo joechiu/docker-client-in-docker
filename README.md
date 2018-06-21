@@ -34,6 +34,10 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 CONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS
 2b3e3603e067        0.67%               331 MiB / 2.288 GiB   14.13%              4.32 MB / 824 kB    94.8 MB / 8.94 MB   91
 09fa6eced026        0.21%               528 KiB / 2.288 GiB   0.02%               508 B / 508 B       0 B / 0 B           6
+
+CONTAINER           CPU %               MEM USAGE / LIMIT       MEM %               NET I/O             BLOCK I/O           PIDS
+2b3e3603e067        3.30%               347.7 MiB / 2.288 GiB   14.84%              4.75 MB / 1.39 MB   95.2 MB / 22.1 MB   95
+5dce8139a115        3.53%               520 KiB / 2.288 GiB     0.02%               648 B / 648 B       0 B / 0 B           6
 </pre>
 
 ## Troubleshooting
